@@ -29,10 +29,6 @@
   padding-left: $grid-gutter;
 }
 
-.flex-row {
-  display: flex;
-}
-
 // Column widths
 .one-third {
   width: 33.333333%;
@@ -60,6 +56,16 @@
 
 .four-fifths {
   width: 80%;
+}
+
+@include media_larger_than_mobile {
+  .flex-row {
+    display: flex;
+  }
+
+  .one-half-desktop {
+    width: 50%;
+  }
 }
 
 // Single column hack
