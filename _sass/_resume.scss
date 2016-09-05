@@ -17,20 +17,10 @@
 
 // page header styles
 
-.page-header { padding: 1.5rem 0;
-
-  .avatar {
-    width: 95px;
-    max-width: 100%;
-    overflow: hidden;
-    @include border-radius(100px);
-    margin: 0 auto;
-    display: block;
-  }
-
+.page-header {
   .header-name {
     @include sans;
-    font-size: 3rem;
+    font-size: 2.5rem;
     font-weight: 900;
     text-align: center;
     line-height: 1;
@@ -59,7 +49,9 @@
   }
 
   .executive-summary {
-    @include media_larger_than_mobile { font-size: 1.125rem; }
+    @include media_larger_than_mobile {
+      font-size: 1.125rem;
+    }
     p {
       text-indent: 2rem;
       text-align: justify;
@@ -88,7 +80,8 @@
     margin-left: 5px;
   }
 
-  .icon-link { display: inline-block;
+  .icon-link {
+    display: inline-block;
 
     &:hover .icon path {
       fill: #333;
@@ -116,7 +109,9 @@
     color: #fff;
   }
 
-  &.not-looking { width: 400px; }
+  &.not-looking {
+    width: 400px;
+  }
 }
 
 // resume content styles
@@ -124,7 +119,9 @@
 .content-section {
   margin: 0 0 3rem;
 
-  .resume-item { margin-bottom: 2rem; }
+  .resume-item {
+    margin-bottom: 2rem;
+  }
 
   .resume-item-title {
     @include sans_bold;
@@ -156,27 +153,8 @@
     }
   }
 
-  .resume-item-copy { margin: .75rem 0 0; }
-}
-
-// footer styles
-
-.page-footer {
-  text-align: center;
-  margin-bottom: 3rem;
-
-  .footer-icon {
-    font-size: 2rem;
-  }
-
-  .footer-line {
-    margin: 0;
-    font-size: .875rem;
-    color: #999;
-
-    > a {
-      font-weight: 700;
-      color: #333;
-    }
+  .resume-item-copy {
+    margin: .75rem 0 0;
+    font-size: 18px;
   }
 }

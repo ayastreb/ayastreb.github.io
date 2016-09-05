@@ -1,0 +1,366 @@
+---
+---
+
+//
+// IMPORTS
+//
+
+@import "reset";
+@import "variables";
+@import "mixins";
+@import "layout";
+@import "resume";
+// Syntax highlighting @import is at the bottom of this file
+
+/**************/
+/* BASE RULES */
+/**************/
+
+html {
+  font-size: 100%;
+}
+
+body {
+  background: $white;
+  font-family: $serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 21px;
+  line-height: 1.58;
+  letter-spacing: -.003em;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0;
+  width: 100%;
+}
+
+.content {
+  max-width: 740px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: $headerFont;
+  color: $darkerGray;
+  font-weight: bold;
+
+  line-height: 1.7;
+  margin: 1em 0 15px;
+  padding: 0;
+
+  @include mobile {
+    line-height: 1.4;
+  }
+}
+
+h1 {
+  font-size: 30px;
+  a {
+    color: inherit;
+  }
+}
+
+h2 {
+  font-size: 24px;
+}
+
+h3 {
+  font-size: 20px;
+}
+
+h4 {
+  font-size: 18px;
+  color: $gray;
+}
+
+p {
+  margin: 15px 0;
+}
+
+a {
+  color: $blue;
+  text-decoration: none;
+  cursor: pointer;
+  &:hover, &:active {
+    color: $blue;
+    text-decoration: none;
+  }
+}
+
+ul, ol {
+  margin: 15px 0;
+  padding-left: 30px;
+}
+
+ul {
+  list-style-type: disc;
+}
+
+ol {
+  list-style-type: decimal;
+}
+
+ol ul, ul ol, ul ul, ol ol {
+  margin: 0;
+}
+
+ul ul, ol ul {
+  list-style-type: circle;
+}
+
+em, i {
+  font-style: italic;
+}
+
+strong, b {
+  font-weight: bold;
+}
+
+img {
+  max-width: 100%;
+}
+
+// Fixes images in popup boxes from Google Translate
+.gmnoprint img {
+  max-width: none;
+}
+
+.date {
+  font-style: italic;
+  color: $gray;
+}
+
+// Specify the color of the selection
+::-moz-selection {
+  color: $black;
+  background: $lightGray;
+}
+
+::selection {
+  color: $black;
+  background: $lightGray;
+}
+
+// Nicolas Gallagher's micro clearfix hack
+// http://nicolasgallagher.com/micro-clearfix-hack/
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  display: table;
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+/*********************/
+/* LAYOUT / SECTIONS */
+/*********************/
+
+//
+// .masthead
+//
+
+.wrapper-masthead {
+  margin-bottom: 2.5rem;
+}
+
+.masthead {
+  padding: .33rem 0 .33rem .33rem;
+  border-bottom: 1px solid #ddd;
+
+  @include mobile {
+    text-align: center;
+  }
+}
+
+.site-info {
+  float: left;
+
+  @include mobile {
+    float: none;
+    display: block;
+    margin: 0 auto;
+  }
+}
+
+.site-name {
+  margin: 0 0 0 .5rem;
+  color: $darkGray;
+  cursor: pointer;
+  font-family: $sans;
+  font-weight: 300;
+  font-size: 28px;
+  letter-spacing: 1px;
+}
+
+nav {
+  float: right;
+  margin-top: .33rem;
+  font-family: $sans;
+  font-size: 18px;
+
+  @include mobile {
+    float: none;
+    margin-top: 9px;
+    display: block;
+    font-size: 16px;
+  }
+
+  a {
+    color: $darkGray;
+    text-align: right;
+    font-weight: 300;
+    letter-spacing: 1px;
+
+    &:hover {
+      color: $blue;
+    }
+
+    @include mobile {
+      margin: 0 10px;
+      color: $blue;
+    }
+  }
+
+  ul {
+    padding: 0;
+    width: 100%;
+    list-style-type: none;
+    width: 37rem;
+    @include mobile {
+      width: 100%;
+    }
+  }
+
+  ul:hover > span {
+    background: $blue;
+  }
+
+  ul {
+    margin-top: 0px;
+  }
+
+  ul li {
+    font-weight: bold;
+    width: 20%;
+    float: left;
+    padding: 7px 0;
+    text-align: center;
+    cursor: pointer;
+  }
+
+  ul li:hover {
+    color: #d0332b;
+  }
+
+  ul li.active:nth-child(1) ~ span,
+  ul li.inactive:nth-child(1):hover ~ span {
+    left: 0%;
+  }
+
+  ul li.active:nth-child(2) ~ span,
+  ul li.inactive:nth-child(2):hover ~ span {
+    left: 20%;
+  }
+
+  ul li.active:nth-child(3) ~ span,
+  ul li.inactive:nth-child(3):hover ~ span {
+    left: 40%;
+  }
+
+  ul li.active:nth-child(4) ~ span,
+  ul li.inactive:nth-child(4):hover ~ span {
+    left: 60%;
+  }
+
+  ul li.active:nth-child(5) ~ span,
+  ul li.inactive:nth-child(5):hover ~ span {
+    left: 80%;
+  }
+
+  span {
+    position: absolute;
+    bottom: -42px;
+    display: block;
+    width: 20%;
+    height: 5px;
+    background: $red;
+    border-radius: 15px;
+    @include mobile {
+      display: none;
+    }
+  }
+
+  ul li, span {
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+    position: relative;
+  }
+}
+
+//
+// .main
+//
+
+.not-found-image {
+  text-align: center;
+  img {
+    width: 400px;
+  }
+}
+
+.posts > .post {
+  padding-bottom: 2em;
+  border-bottom: 1px solid $lightGray;
+}
+
+.posts > .post:last-child {
+  padding-bottom: 1em;
+  border-bottom: none;
+}
+
+.post {
+  blockquote {
+    margin: 1.8em .8em;
+    border-left: 2px solid $gray;
+    padding: 0.1em 1em;
+    color: $gray;
+    font-size: 22px;
+    font-style: italic;
+  }
+
+  .comments {
+    margin-top: 10px;
+  }
+
+  .read-more {
+    font-size: 18px;
+  }
+
+  a {
+    &:hover {
+      text-decoration: none;
+    }
+  }
+}
+
+.wrapper-footer {
+  margin-top: 50px;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  background-color: $lightGray;
+}
+
+footer {
+  padding: 20px 0;
+  text-align: center;
+}
+
+// Settled on moving the import of syntax highlighting to the bottom of the CSS
+// ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
+@import "highlights";
+@import "svg-icons";

@@ -1,12 +1,22 @@
-# Site settings
-title:       "Anatoliy Yastreb - Resume"
-description: "I'm a web software engineer with strong experience in eCommerce who's passionate about complete process of product development - from collecting requirements to deployment and impact analysis. I enjoy working with smart people, crafting software which brings value to customers, and continuously improving my skills."
+name: Developer's Notes
+disqus:
+google_analytics: UA-81737265-1
+url: https://ayastreb.me
+baseurl: ""
 
-# Build settings
-markdown: kramdown
-sass:
-  sass_dir: _sass
-  style:    compressed
+navigation:
+  - text: Blog
+    url: /
+  - text: Resume
+    url: /resume/
+  - text: Projects
+    url: /projects/
+  - text: Traveling
+    url: https://11route.com
+    target: _blank
+  - text: Photos
+    url: https://500px.com/yastreb
+    target: _blank
 
 # Resume settings
 resume_avatar:                  false
@@ -36,8 +46,39 @@ resume_social_links:
   resume_github_url:            https://github.com/ayastreb
   resume_twitter_url:           https://twitter.com/mrHabicht
   resume_linkedin_url:          https://www.linkedin.com/in/yastreb
-  resume_website_url:           https://11route.com
   resume_pdf_url:               https://ayastreb.me/anatoliy.yastreb-resume.pdf
 
 # Design settings
 resume_theme:                   default
+
+permalink: /:title/
+
+# The release of Jekyll Now that you're using
+version: v1.2.0
+
+# Jekyll 3 now only supports Kramdown for Markdown
+kramdown:
+  # Use GitHub flavored markdown, including triple backtick fenced code blocks
+  input: GFM
+  # Jekyll 3 and GitHub Pages now only support rouge for syntax highlighting
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    # Use existing pygments syntax highlighting css
+    css_class: 'highlight'
+
+# Set the Sass partials directory, as we're using @imports
+sass:
+  style: :expanded # You might prefer to minify using :compressed
+
+# Use the following plug-ins
+gems:
+  - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
+  - jekyll-feed # Create an Atom feed using the official Jekyll feed gem
+
+# Exclude these files from your production _site
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - README.md
+  - CNAME

@@ -1,12 +1,8 @@
-<!DOCTYPE html>
-<html>
-
-{% include head.html %}
-
-<body class="theme-{% if site.resume_theme %}{{ site.resume_theme }}{% endif %}">
+---
+layout: default
+---
 
 <div class="wrapper" itemscope itemtype="http://schema.org/Person">
-
   <header class="page-header">
 
     {% if site.resume_avatar == 'true' %}
@@ -112,53 +108,6 @@
   <!-- end Experience -->
   {% endif %}
 
-  {% if site.resume_section_projects %}
-  <!-- begin Projects -->
-  <section class="content-section">
-
-    <header class="section-header">
-      <h2>Projects</h2>
-    </header>
-
-    <div class="resume-item">
-      <h3 class="resume-item-title"><a href="https://jekyllrb.com/">Jekyll</a></h3>
-      <h4 class="resume-item-details">Team Captain &bull; 2016 &mdash; Present</h4>
-      <p class="resume-item-copy">
-        As <a href="https://teams.jekyllrb.com/">@jekyll/build</a> team captain I help triaging incoming issues,
-        review pull requests and occasionally contribute to bug fixes, refactoring and feature development.
-      </p>
-    </div>
-
-    <div class="resume-item">
-      <h3 class="resume-item-title"><a href="https://ayastreb.me/jekyll-maps/">Jekyll Maps</a></h3>
-      <h4 class="resume-item-details">Maintainer &bull; 2016 &mdash; Present</h4>
-      <p class="resume-item-copy">
-        Jekyll Maps is a plugin that allows users to easily create different maps on <a href="http://jekyllrb.com" target="_blank">Jekyll</a> site pages.
-      </p>
-    </div>
-
-    <div class="resume-item">
-      <h3 class="resume-item-title"><a href="https://github.com/ayastreb/bandwidth-hero">Bandwidth Hero</a></h3>
-      <h4 class="resume-item-details">Maintainer &bull; 2016 &mdash; Present</h4>
-      <p class="resume-item-copy">
-        Experimental Chrome extension which compresses images on the page via proxy server.<br/>
-        Proxy server is implemented with Node.js and uses Amazon S3 for file storage.
-      </p>
-    </div>
-
-    <div class="resume-item">
-      <h3 class="resume-item-title"><a href="https://meal-planner.org">meal-planner.org</a></h3>
-      <h4 class="resume-item-details">Founder & Primary Developer &bull; 2015 &mdash; Present</h4>
-      <p class="resume-item-copy">
-        Recipe recommendation and nutrition balancing service.<br/>
-        A health & fitness progressive web app built with AngularJS, Sinatra & ElasticSearch.
-      </p>
-    </div>
-
-  </section>
-  <!-- end Projects -->
-  {% endif %}
-
   {% if site.resume_section_education %}
   <!-- begin Education -->
   <section class="content-section">
@@ -247,12 +196,4 @@
   <!-- end Skills -->
   {% endif %}
 
-  <footer class="page-footer">
-    <p class="footer-icon">&#x2766;</p>
-  </footer>
-
 </div>
-
-</body>
-
-</html>

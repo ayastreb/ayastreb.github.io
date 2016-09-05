@@ -1,21 +1,29 @@
-// Variables
-// ---------------------------------------/
-
-$container-width: 980px !default;
-$grid-gutter:     10px !default;
+//
+// VARIABLES
+//
 
 // Colors
-$white:             #fff;
-$black:             #333;
+$blue: #2196F3;
+$red: #F4511E;
 
-// Styles
-$text_color:        $black;
+// Grays
+$black: #000;
+$darkerGray: #222;
+$darkGray: #333;
+$gray: #666;
+$lightGray: #f2f2f2;
+$white: #fff;
 
-// Font stack
-$body-font: Helvetica, arial, nimbussansl, liberationsans, freesans, clean, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol" !default;
+// Font stacks
+$headerFont: "PT Serif Caption", Geneva, Arial, sans-serif;
+$sans: "Roboto", Helvetica, Arial, sans-serif;
+$serif: "PT Serif", Palatino, Georgia, serif;
 
-// The base body size
-$body-font-size: 13px !default;
+$grid-gutter:     10px !default;
 
-// Monospace font stack
-$mono-font: Consolas, "Liberation Mono", Menlo, Courier, monospace !default;
+// Mobile breakpoints
+@mixin mobile {
+  @media screen and (max-width: 640px) {
+    @content;
+  }
+}
