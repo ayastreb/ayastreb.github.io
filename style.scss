@@ -47,6 +47,9 @@ body {
 .content {
   max-width: 740px;
   padding-bottom: 20px;
+  @include mobile {
+    padding: 0 10px 10px 20px;
+  }
 }
 
 h1, h2, h3, h4, h5, h6 {
