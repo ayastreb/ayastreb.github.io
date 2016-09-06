@@ -84,8 +84,8 @@
     display: inline-block;
 
     &:hover .icon path {
-      fill: #333;
-      @include transition(all .2s ease);
+      fill: $blue;
+      @include transition(all .4s ease);
     }
   }
 }
@@ -102,10 +102,10 @@
   @include sans_light;
   color: #333;
   line-height: 55px;
-  @include transition(all .2s ease);
+  @include transition(all .4s ease);
 
   &:hover {
-    background-color: #333;
+    background-color: $blue;
     color: #fff;
   }
 
@@ -148,7 +148,7 @@
 
       &:hover {
         border-bottom: none;
-        color: #9c9c9c;
+        color: $blue;
       }
     }
   }
