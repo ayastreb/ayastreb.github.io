@@ -34,7 +34,7 @@ body {
   &:after {
     content: '';
     display: block;
-    height: 70px;
+    height: 58px;
   }
 }
 
@@ -361,15 +361,17 @@ nav {
   position: absolute;
   bottom: 0;
   width: 100%;
-  height: 70px;
+  height: 58px;
   margin-top: 0px;
   border-top: 1px solid #ddd;
   background-color: $lightGray;
 }
 
 footer {
-  padding: 15px 0;
+  padding: 15px 0 13px 0;
   text-align: center;
+  font-size: 18px;
+  color: $gray;
 }
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
