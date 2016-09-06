@@ -35,7 +35,16 @@
         <ul>
           {% assign url = page.url|remove:'index.html' %}
           {% for link in site.navigation %}
-          <li class="{% if url == link.url %}active{% else %}inactive{% endif %}">
+          {% if page.path contains '_posts' and link.url == '/' %}
+            {% assign item_class = 'active' %}
+          {% else %}
+            {% if link.url == url %}
+              {% assign item_class = 'active' %}
+            {% else %}
+              {% assign item_class = 'inactive' %}
+            {% endif %}
+          {% endif %}
+          <li class="{{ item_class }}">
             <a href="{{ link.url }}" {% if link.target %}target="{{ link.target }}" {% endif %}>
               {{ link.text }}
             </a>
