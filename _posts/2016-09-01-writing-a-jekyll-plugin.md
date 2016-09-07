@@ -43,7 +43,7 @@ ${plugin_name}.gemspec         # Ruby Gem specification
 Plugin version is kept in a separate file and re-used everywhere when you need to display a version. It makes releasing new versions easier.
 
 ### Gemspec
-Gemspec describe your gem and its dependencies, I've came up with following for my plugin, based on several other plugins:
+Gemspec describes your gem and its dependencies, I've came up with following for my plugin, based on several other plugins:
 
 {% highlight ruby %}
 # coding: utf-8

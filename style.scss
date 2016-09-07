@@ -141,6 +141,11 @@ img {
 .date {
   font-style: italic;
   color: $gray;
+  float: left;
+}
+
+.share {
+  float: right;
 }
 
 // Specify the color of the selection
@@ -342,8 +347,12 @@ nav {
     font-style: italic;
   }
 
+  .entry {
+    margin-bottom: 1rem;
+  }
+
   .comments {
-    margin-top: 10px;
+    margin-top: 2rem;
   }
 
   .read-more {
