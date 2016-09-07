@@ -31,6 +31,8 @@ body {
   letter-spacing: -.003em;
   min-height: 100%;
   position: relative;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
   &:after {
     content: '';
     display: block;
