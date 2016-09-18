@@ -20,7 +20,7 @@ layout: default
 
     <div class="executive-summary" itemprop="description">
       <p>
-        I'm a web software engineer with 5 years of experience in eCommerce and overall 10 years of experience in web development.
+        I'm a web software engineer with vast experience in eCommerce and web development.
         I've led teams of 3 to 4 developers and have experience setting up team workflow according to industry's best practices.
       </p>
       <p>
@@ -28,7 +28,7 @@ layout: default
         I enjoy working with smart people, crafting software which brings value to customers, and continuously improving my skills.
       </p>
       <p>
-        In my free time I contribute to open source projects and learn new technologies such as Ruby, AngularJS, ReactJS and others.
+        In my free time I contribute to open source projects and learn new technologies.
       </p>
     </div>
 
@@ -40,6 +40,67 @@ layout: default
     {% endif %}
 
   </header>
+
+
+  {% if site.resume_section_skills %}
+  <!-- begin Skills -->
+  <section class="content-section">
+
+    <header class="section-header">
+      <h2>Skills</h2>
+    </header>
+
+    <div class="flex-row">
+      <div class="one-half-desktop">
+        <div class="resume-item">
+          <h4 class="resume-item-details">Languages</h4>
+          <p class="resume-item-copy">
+            PHP, Ruby, JavaScript
+          </p>
+        </div>
+
+        <div class="resume-item">
+          <h4 class="resume-item-details">Frameworks</h4>
+          <p class="resume-item-copy">
+            Zend, Laravel, Sinatra, AngularJS
+          </p>
+        </div>
+
+        <div class="resume-item">
+          <h4 class="resume-item-details">WebServices</h4>
+          <p class="resume-item-copy">
+            SOAP, REST, JSON API, oAuth
+          </p>
+        </div>
+      </div>
+
+      <div class="one-half-desktop">
+        <div class="resume-item">
+          <h4 class="resume-item-details">Databases & Search</h4>
+          <p class="resume-item-copy">
+            MySQL, Redis, ElasticSearch, Solr
+          </p>
+        </div>
+
+        <div class="resume-item">
+          <h4 class="resume-item-details">Testing</h4>
+          <p class="resume-item-copy">
+            PHPUnit, Rspec, Selenium, Jasmine
+          </p>
+        </div>
+
+        <div class="resume-item">
+          <h4 class="resume-item-details">Continuous Integration</h4>
+          <p class="resume-item-copy">
+            Bamboo, Capistrano, TravisCI
+          </p>
+        </div>
+      </div>
+    </div>
+
+  </section>
+  <!-- end Skills -->
+  {% endif %}
 
   {% if site.resume_section_experience %}
   <!-- begin Experience -->
@@ -134,66 +195,6 @@ layout: default
 
   </section>
   <!-- end Education -->
-  {% endif %}
-
-  {% if site.resume_section_skills %}
-  <!-- begin Skills -->
-  <section class="content-section">
-
-    <header class="section-header">
-      <h2>Skills</h2>
-    </header>
-
-    <div class="flex-row">
-      <div class="one-half-desktop">
-        <div class="resume-item">
-          <h4 class="resume-item-details">Languages</h4>
-          <p class="resume-item-copy">
-            PHP, Ruby, JavaScript
-          </p>
-        </div>
-
-        <div class="resume-item">
-          <h4 class="resume-item-details">Frameworks</h4>
-          <p class="resume-item-copy">
-            Zend, Laravel, Sinatra, AngularJS
-          </p>
-        </div>
-
-        <div class="resume-item">
-          <h4 class="resume-item-details">WebServices</h4>
-          <p class="resume-item-copy">
-            SOAP, REST, JSON API, oAuth
-          </p>
-        </div>
-      </div>
-
-      <div class="one-half-desktop">
-        <div class="resume-item">
-          <h4 class="resume-item-details">Databases & Search</h4>
-          <p class="resume-item-copy">
-            MySQL, Redis, ElasticSearch, Solr
-          </p>
-        </div>
-
-        <div class="resume-item">
-          <h4 class="resume-item-details">Testing</h4>
-          <p class="resume-item-copy">
-            PHPUnit, Rspec, Selenium, Jasmine
-          </p>
-        </div>
-
-        <div class="resume-item">
-          <h4 class="resume-item-details">Continuous Integration</h4>
-          <p class="resume-item-copy">
-            Bamboo, Capistrano, TravisCI
-          </p>
-        </div>
-      </div>
-    </div>
-
-  </section>
-  <!-- end Skills -->
   {% endif %}
 
 </div>
