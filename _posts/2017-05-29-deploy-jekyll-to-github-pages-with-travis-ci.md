@@ -7,7 +7,8 @@ If you want to use [GitHub Pages](https://pages.github.com/) with custom Jekyll 
 (e.g. anything other than [officially supported plugins](https://help.github.com/articles/adding-jekyll-plugins-to-a-github-pages-site/))
 &mdash; you need to generate the site content and push it to the repository manually. 
 If you want to automate this step and deploy your site every time you push changes to Jekyll, [Travis CI](https://travis-ci.org/) might help you.
- 
+<!--more-->
+
 Travis CI is a continuous integration tool which allows you to setup build process for your GitHub repo. It is free for public repos.
 Every time you push changes to the repository, Travis CI will setup a virtual machine and run the build script you provide it.
 

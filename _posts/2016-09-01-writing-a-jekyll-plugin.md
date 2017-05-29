@@ -4,7 +4,7 @@ title: Writing a Jekyll plugin
 ---
 
 In this blog post I share my experience of building a Jekyll plugin.
-
+<!--more-->
 I have a [map page](https://11route.com/map) in my travel blog which shows all the places I've been to. This page goes through all blog posts and collects locations from YAML data. After that it builds a Google Map with a marker for each location.
 
 I thought it might be a good idea to extract this functionality into a separate plugin and [open source](https://ayastreb.me/jekyll-maps/) it, so that other people can also use it on their pages. 

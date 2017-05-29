@@ -4,7 +4,7 @@ title: Developing a Chrome extension with React
 ---
 
 I wanted to add a couple of new features to my [Chrome extension](https://github.com/ayastreb/bandwidth-hero) and I decided to rewrite it with [React](https://facebook.github.io/react/).
-
+<!--more-->
 My original extension was a simple one file Vanilla JS with a couple of event listeners.
 In the rewrite I wanted to use ES6 modules to split my code and also give a try to React.
 
