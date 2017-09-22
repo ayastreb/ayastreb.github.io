@@ -12,11 +12,10 @@ navigation:
     url: /resume/
   - text: Projects
     url: /projects/
-  - text: Traveling
+  - text: Talks
+    url: /talks/
+  - text: Travel
     url: https://11route.com
-    target: _blank
-  - text: Photos
-    url: https://500px.com/yastreb
     target: _blank
 
 # Resume settings
