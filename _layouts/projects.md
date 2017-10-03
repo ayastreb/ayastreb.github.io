@@ -7,10 +7,20 @@ layout: default
   <!-- begin Projects -->
   <section class="content-section">
     <div class="resume-item">
+      <h3 class="resume-item-title"><a href="https://github.com/ayastreb/money-tracker" target="_blank">Money Tracker</a></h3>
+      <h4 class="resume-item-details">Maintainer &bull; 2017 &mdash; Present</h4>
+      <p class="resume-item-copy">
+        Offline-capable progressive web app for personal finance management.
+        Implemented with React, Redux and PouchDB/CouchDB.<br/>
+        Does not have a backend &mdash; communicates directly with CouchDB server.
+      </p>
+    </div>
+
+    <div class="resume-item">
       <h3 class="resume-item-title"><a href="https://github.com/ayastreb/bandwidth-hero" target="_blank">Bandwidth Hero</a></h3>
       <h4 class="resume-item-details">Maintainer &bull; 2016 &mdash; Present</h4>
       <p class="resume-item-copy">
-        Experimental Chrome extension which compresses images on the page via proxy server.<br/>
+        Chrome extension which compresses images on the page via proxy server to save data.<br/>
         Proxy server is implemented with Node.js.
       </p>
     </div>
