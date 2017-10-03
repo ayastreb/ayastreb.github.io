@@ -53,7 +53,7 @@ layout: default
         <div class="resume-item">
           <h4 class="resume-item-details">Languages</h4>
           <p class="resume-item-copy">
-            JavaScript, PHP, Ruby
+            JavaScript, Ruby, PHP
           </p>
         </div>
 
@@ -76,14 +76,14 @@ layout: default
         <div class="resume-item">
           <h4 class="resume-item-details">Databases & Search</h4>
           <p class="resume-item-copy">
-            MySQL, Redis, CouchDB, ElasticSearch
+            MySQL, CouchDB, Redis, ElasticSearch
           </p>
         </div>
 
         <div class="resume-item">
           <h4 class="resume-item-details">Testing</h4>
           <p class="resume-item-copy">
-            Jasmine, Jest, PHPUnit, Selenium
+            Jest, Jasmine, PHPUnit, Selenium
           </p>
         </div>
 
@@ -137,12 +137,10 @@ layout: default
       <h3 class="resume-item-title" itemprop="name">Independent Contractor</h3>
       <h4 class="resume-item-details" itemprop="description">Web Developer &bull; 2007 &mdash; 2010</h4>
       <p class="resume-item-copy">
-        <strong>Technologies:</strong> PHP, JavaScript, AWS, Solr
+        <strong>Technologies:</strong> AWS, PHP, HTML, CSS, JavaScript
       </p>
-      <p class="resume-item-copy">Implemented various projects, such as
-        <a href="http://diccionariolibre.com/" target="_blank">DiccionarioLibre.com</a>,
-        <a href="http://profilestar.com" target="_blank">ProfileStar.com</a>,
-        <a href="http://mycubi.com" target="_blank">MyCubi.com</a>
+      <p class="resume-item-copy">
+        Implemented various web projects for international customers.
       </p>
 
     </div>
