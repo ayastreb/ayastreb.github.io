@@ -27,9 +27,6 @@ layout: default
         I enjoy working with smart people, crafting software which brings value to customers, and continuously improving
         my skills.
       </p>
-      <p>
-        In my free time I contribute to open source projects and learn new technologies.
-      </p>
     </div>
 
     {% if site.resume_looking_for_work == 'yes' %}
@@ -53,7 +50,7 @@ layout: default
         <div class="resume-item">
           <h4 class="resume-item-details">Languages</h4>
           <p class="resume-item-copy">
-            JavaScript, Ruby, PHP
+            PHP, JavaScript, Ruby
           </p>
         </div>
 
@@ -83,7 +80,7 @@ layout: default
         <div class="resume-item">
           <h4 class="resume-item-details">Testing</h4>
           <p class="resume-item-copy">
-            Jest, Jasmine, PHPUnit, Selenium
+            PHPUnit, Jest, Jasmine, Selenium
           </p>
         </div>
 
@@ -111,11 +108,15 @@ layout: default
       </h3>
       <h4 class="resume-item-details" itemprop="description">Senior Software Developer &bull; 2013 &mdash; 2017</h4>
       <p class="resume-item-copy">
-        <strong>Technologies:</strong> Magento, PHP, Laravel, Solr, Varnish, Microservices
+        <strong>Technologies:</strong> PHP, MySQL, JavaScript, HTML, CSS, Redis
       </p>
       <p class="resume-item-copy">
-        Led development team of 3-4 developers in various projects, including new features implementation, payment methods integration
-        and online shop localization in 16 new countries for Germany's biggest online designer handbags retailer.
+        <ul>
+          <li>led successful shop localization in 16 countries</li>
+          <li>optimized website performance and availability, reduced downtime by 99%</li>
+          <li>played key role in technical design & review processes for new website</li>
+          <li>introduced development best practices, like code review, continuous integration etc</li>
+        </ul>
       </p>
 
     </div>
@@ -124,11 +125,14 @@ layout: default
       <h3 class="resume-item-title" itemprop="name">Magento, X.commerce, Inc. (an eBay company)</h3>
       <h4 class="resume-item-details" itemprop="description">Senior Software Engineer &bull; 2011 &mdash; 2013</h4>
       <p class="resume-item-copy">
-        <strong>Technologies:</strong> PHP, SOAP WSI, REST, Redis, MongoDB, Gearman
+        <strong>Technologies:</strong> PHP, SOAP, REST, oAuth, Redis, MongoDB
       </p>
       <p class="resume-item-copy">
-        Worked on Magento Core API, performed R&D on Magento 2 API platform.<br/> Participated in Magento Connect and Magento
-        GO (SaaS) projects development.
+        <ul>
+          <li>implemented prototype of REST API authentication system</li>
+          <li>delivered Magento 2 API architecture proposal</li>
+          <li>worked on Magento Core API implementation for v1.6 release</li>
+        </ul>
       </p>
 
     </div>
@@ -137,10 +141,14 @@ layout: default
       <h3 class="resume-item-title" itemprop="name">Independent Contractor</h3>
       <h4 class="resume-item-details" itemprop="description">Web Developer &bull; 2007 &mdash; 2010</h4>
       <p class="resume-item-copy">
-        <strong>Technologies:</strong> AWS, PHP, HTML, CSS, JavaScript
+        <strong>Technologies:</strong> PHP, HTML, CSS, JavaScript, Amazon Web Services
       </p>
       <p class="resume-item-copy">
-        Implemented various web projects for international customers.
+        <ul>
+          <li>successfully delivered web app prototype for a social start-up</li>
+          <li>worked closely with stakeholders on identifying and shaping new features</li>
+          <li>worked with legacy code, implemented new requirements and fixes</li>
+        </ul>
       </p>
 
     </div>
@@ -149,10 +157,13 @@ layout: default
       <h3 class="resume-item-title" itemprop="name">eTek Systems</h3>
       <h4 class="resume-item-details" itemprop="description">Junior PHP Developer &bull; 2006 &mdash; 2007</h4>
       <p class="resume-item-copy">
-        <strong>Technologies:</strong> PHP, XML, Atom
+        <strong>Technologies:</strong> PHP, HTML, CSS, XML, Atom
       </p>
       <p class="resume-item-copy">
-        Worked on international customer's web projects and in-house tools.
+        <ul>
+          <li>implemented web app performance testing</li>
+          <li>worked on web-crawlers and XML-feed data processing</li>
+        </ul>
       </p>
 
     </div>
