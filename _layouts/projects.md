@@ -18,7 +18,7 @@ layout: default
     </div>
 
     <div class="resume-item">
-      <h3 class="resume-item-title"><a href="https://github.com/ayastreb/bandwidth-hero" target="_blank">Bandwidth Hero</a></h3>
+      <h3 class="resume-item-title"><a href="https://bandwidth-hero.com" target="_blank">Bandwidth Hero</a></h3>
       <h4 class="resume-item-details">Maintainer &bull; 2016 &mdash; Present</h4>
       <p class="resume-item-copy">
         <strong>Technologies:</strong> JavaScript, React, Webpack, Node.js
