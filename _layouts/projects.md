@@ -7,7 +7,7 @@ layout: default
   <!-- begin Projects -->
   <section class="content-section">
     <div class="resume-item">
-      <h3 class="resume-item-title"><a href="https://github.com/ayastreb/money-tracker" target="_blank">Money Tracker</a></h3>
+      <h3 class="resume-item-title"><a href="https://moneytracker.cc" target="_blank">Money Tracker</a></h3>
       <h4 class="resume-item-details">Maintainer &bull; 2017 &mdash; Present</h4>
       <p class="resume-item-copy">
         <strong>Technologies:</strong> HTML, CSS, JavaScript, React, Redux, PouchDB, CouchDB, Serverless
