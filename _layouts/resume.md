@@ -36,9 +36,10 @@ layout: default
 
   </header>
 
+{% if site.resume_section_skills %}
 
-  {% if site.resume_section_skills %}
   <!-- begin Skills -->
+
   <section class="content-section">
 
     <header class="section-header">
@@ -104,18 +105,32 @@ layout: default
     </header>
 
     <div class="resume-item" itemscope itemprop="worksFor" itemtype="http://schema.org/Organization">
+      <h3 class="resume-item-title" itemprop="name">Independent Developer</h3>
+      <h4 class="resume-item-details" itemprop="description">2017 &mdash; Present</h4>
+      <p class="resume-item-copy">
+        <strong>Technologies:</strong> HTML, CSS, JavaScript, React, Redux, Webpack, CouchDB
+      </p>
+      <p class="resume-item-copy">
+        <ul>
+          <li>work on open-source projects, such as <a href="https://bandwidth-hero.com/">Bandwidth-Hero</a> and <a href="https://moneytracker.cc/">Money Tracker</a></li>
+          <li>complete project lifetime, including UX design, frontend & backend coding and user support</li>
+        </ul>
+      </p>
+    </div>
+
+    <div class="resume-item" itemscope itemprop="worksFor" itemtype="http://schema.org/Organization">
       <h3 class="resume-item-title" itemprop="name">Luxury Fashion Trade GmbH (<a href="http://fashionette.de" target="_blank">fashionette.de</a>)
       </h3>
       <h4 class="resume-item-details" itemprop="description">Senior Software Developer &bull; 2013 &mdash; 2017</h4>
       <p class="resume-item-copy">
-        <strong>Technologies:</strong> PHP, MySQL, JavaScript, HTML, CSS, Redis
+        <strong>Technologies:</strong> PHP, MySQL, Redis, ElasticSearch, JavaScript, HTML, CSS
       </p>
       <p class="resume-item-copy">
         <ul>
           <li>led successful shop localization in 16 countries</li>
           <li>optimized website performance and availability, reduced downtime by 99%</li>
           <li>played key role in technical design & review processes for new website</li>
-          <li>introduced development best practices, like code review, continuous integration etc</li>
+          <li>introduced development best practices, such as code review, continuous integration etc</li>
         </ul>
       </p>
 
@@ -123,9 +138,9 @@ layout: default
 
     <div class="resume-item" itemscope itemprop="worksFor" itemtype="http://schema.org/Organization">
       <h3 class="resume-item-title" itemprop="name">Magento, X.commerce, Inc. (an eBay company)</h3>
-      <h4 class="resume-item-details" itemprop="description">Senior Software Engineer &bull; 2011 &mdash; 2013</h4>
+      <h4 class="resume-item-details" itemprop="description">Software Engineer &bull; 2011 &mdash; 2013</h4>
       <p class="resume-item-copy">
-        <strong>Technologies:</strong> PHP, SOAP, REST, oAuth, Redis, MongoDB
+        <strong>Technologies:</strong> PHP, MySQL, Redis, MongoDB, SOAP, REST, oAuth
       </p>
       <p class="resume-item-copy">
         <ul>
@@ -138,10 +153,10 @@ layout: default
     </div>
 
     <div class="resume-item" itemscope itemprop="worksFor" itemtype="http://schema.org/Organization">
-      <h3 class="resume-item-title" itemprop="name">Independent Contractor</h3>
-      <h4 class="resume-item-details" itemprop="description">Web Developer &bull; 2007 &mdash; 2010</h4>
+      <h3 class="resume-item-title" itemprop="name">Freelance Contractor</h3>
+      <h4 class="resume-item-details" itemprop="description">2007 &mdash; 2010</h4>
       <p class="resume-item-copy">
-        <strong>Technologies:</strong> PHP, HTML, CSS, JavaScript, Amazon Web Services
+        <strong>Technologies:</strong> PHP, MySQL, HTML, CSS, JavaScript, Amazon Web Services
       </p>
       <p class="resume-item-copy">
         <ul>
@@ -150,22 +165,6 @@ layout: default
           <li>worked with legacy code, implemented new requirements and fixes</li>
         </ul>
       </p>
-
-    </div>
-
-    <div class="resume-item" itemscope itemprop="worksFor" itemtype="http://schema.org/Organization">
-      <h3 class="resume-item-title" itemprop="name">eTek Systems</h3>
-      <h4 class="resume-item-details" itemprop="description">Junior PHP Developer &bull; 2006 &mdash; 2007</h4>
-      <p class="resume-item-copy">
-        <strong>Technologies:</strong> PHP, HTML, CSS, XML, Atom
-      </p>
-      <p class="resume-item-copy">
-        <ul>
-          <li>implemented web app performance testing</li>
-          <li>worked on web-crawlers and XML-feed data processing</li>
-        </ul>
-      </p>
-
     </div>
 
   </section>
