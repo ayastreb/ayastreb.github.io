@@ -112,8 +112,8 @@ layout: default
       </p>
       <p class="resume-item-copy">
         <ul>
-          <li>work on open-source projects, such as <a href="https://bandwidth-hero.com/">Bandwidth-Hero</a> and <a href="https://moneytracker.cc/">Money Tracker</a></li>
-          <li>complete project lifetime, including UX design, frontend & backend coding and user support</li>
+          <li>implemented browser extension <a href="https://bandwidth-hero.com/">Bandwidth-Hero</a> used by thousands of people</li>
+          <li>designed, implemented and launched <a href="https://moneytracker.cc/">MoneyTracker.cc</a>, an open-source web app for personal finances tracking</li>
         </ul>
       </p>
     </div>
