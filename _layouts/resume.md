@@ -112,7 +112,7 @@ layout: default
       </p>
       <p class="resume-item-copy">
         <ul>
-          <li>implemented browser extension <a href="https://bandwidth-hero.com/">Bandwidth-Hero</a> used by thousands of people</li>
+          <li>implemented <a href="https://bandwidth-hero.com/">Bandwidth-Hero</a>, a browser extension used by thousands of people</li>
           <li>designed, implemented and launched <a href="https://moneytracker.cc/">MoneyTracker.cc</a>, an open-source web app for personal finances tracking</li>
         </ul>
       </p>
