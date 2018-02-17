@@ -19,8 +19,9 @@ layout: default
 
     <div class="executive-summary" itemprop="description">
       <p>
-        I'm a web software engineer with vast experience in eCommerce and web development. I've led teams of 3 to 4 developers and
-        have experience setting up team workflow according to industry's best practices.
+        I'm a software engineer with vast experience in web development.
+        I've worked on  both frontend and full-stack projects.
+        I'm passionate about building modern web applications and improving people's lives with technology.
       </p>
     </div>
 

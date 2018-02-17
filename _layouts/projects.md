@@ -8,7 +8,7 @@ layout: default
   <section class="content-section">
     <div class="resume-item">
       <h3 class="resume-item-title"><a href="https://moneytracker.cc" target="_blank">Money Tracker</a></h3>
-      <h4 class="resume-item-details">Maintainer &bull; 2017 &mdash; Present</h4>
+      <h4 class="resume-item-details">Maintainer &bull; 2017</h4>
       <p class="resume-item-copy">
         <strong>Technologies:</strong> HTML, CSS, JavaScript, React, Redux, PouchDB, CouchDB, Serverless
       </p>
@@ -19,7 +19,7 @@ layout: default
 
     <div class="resume-item">
       <h3 class="resume-item-title"><a href="https://bandwidth-hero.com" target="_blank">Bandwidth Hero</a></h3>
-      <h4 class="resume-item-details">Maintainer &bull; 2016 &mdash; Present</h4>
+      <h4 class="resume-item-details">Maintainer &bull; 2016</h4>
       <p class="resume-item-copy">
         <strong>Technologies:</strong> JavaScript, React, Webpack, Node.js
       </p>
@@ -30,7 +30,7 @@ layout: default
 
     <div class="resume-item">
       <h3 class="resume-item-title"><a href="https://ayastreb.me/jekyll-maps/" target="_blank">Jekyll Maps</a></h3>
-      <h4 class="resume-item-details">Maintainer &bull; 2016 &mdash; Present</h4>
+      <h4 class="resume-item-details">Maintainer &bull; 2016</h4>
       <p class="resume-item-copy">
         <strong>Technologies:</strong> Ruby
       </p>
@@ -41,7 +41,7 @@ layout: default
 
     <div class="resume-item">
       <h3 class="resume-item-title"><a href="https://jekyllrb.com/" target="_blank">Jekyll</a></h3>
-      <h4 class="resume-item-details">Team Captain &bull; 2016 &mdash; Present</h4>
+      <h4 class="resume-item-details">Team Captain &bull; 2016</h4>
       <p class="resume-item-copy">
         <strong>Technologies:</strong> Ruby
       </p>
@@ -53,7 +53,7 @@ layout: default
 
     <div class="resume-item">
       <h3 class="resume-item-title"><a href="https://meal-planner.org" target="_blank">Meal Planner</a></h3>
-      <h4 class="resume-item-details">Founder & Primary Developer &bull; 2015 &mdash; Present</h4>
+      <h4 class="resume-item-details">Founder & Primary Developer &bull; 2015</h4>
       <p class="resume-item-copy">
         <strong>Technologies:</strong> HTML, CSS, JavaScript, AngularJS, Ruby, Sinatra, ElasticSearch
       </p>
