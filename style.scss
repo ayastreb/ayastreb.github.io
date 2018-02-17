@@ -313,7 +313,7 @@ nav {
   }
 
   ul li, span {
-    @include transition(all .5s ease);
+    @include transition(left .5s ease);
     position: relative;
   }
 }
@@ -351,6 +351,9 @@ nav {
 
   .entry {
     margin-bottom: 1rem;
+    @include media_larger_than_mobile {
+      font-size: 1.275rem;
+    }
   }
 
   .comments {
