@@ -53,7 +53,7 @@ layout: default
 
     <div class="resume-item">
       <h3 class="resume-item-title"><a href="https://meal-planner.org" target="_blank">Meal Planner</a></h3>
-      <h4 class="resume-item-details">Founder & Primary Developer &bull; 2015</h4>
+      <h4 class="resume-item-details">Maintainer &bull; 2015</h4>
       <p class="resume-item-copy">
         <strong>Technologies:</strong> HTML, CSS, JavaScript, AngularJS, Ruby, Sinatra, ElasticSearch
       </p>

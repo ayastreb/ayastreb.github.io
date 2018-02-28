@@ -44,7 +44,7 @@ layout: default
 
     <div class="resume-item" itemscope itemprop="worksFor" itemtype="http://schema.org/Organization">
       <h3 class="resume-item-title" itemprop="name">Independent Developer</h3>
-      <h4 class="resume-item-details" itemprop="description">2017 &mdash; Present</h4>
+      <h4 class="resume-item-details" itemprop="description">Apr 2017 &mdash; Present</h4>
       <p class="resume-item-copy">
         <strong>Technologies:</strong> HTML, CSS, JavaScript, React, Redux, Webpack, CouchDB
       </p>
@@ -59,7 +59,9 @@ layout: default
     <div class="resume-item" itemscope itemprop="worksFor" itemtype="http://schema.org/Organization">
       <h3 class="resume-item-title" itemprop="name">Luxury Fashion Trade GmbH (<a href="http://fashionette.de" target="_blank">fashionette.de</a>)
       </h3>
-      <h4 class="resume-item-details" itemprop="description">Senior Software Developer &bull; 2013 &mdash; 2017</h4>
+      <h4 class="resume-item-details" style="margin-bottom:0.5em" itemprop="description">Senior Software Developer</h4>
+      <h4 class="resume-item-details" style="margin-top: 0">Apr 2013 &mdash; Mar 2016 (full-time employee)</h4>
+      <h4 class="resume-item-details" style="margin-top: 0">Sep 2016 &mdash; Mar 2017 (remote contractor)</h4>
       <p class="resume-item-copy">
         <strong>Technologies:</strong> PHP, MySQL, Redis, ElasticSearch, JavaScript, HTML, CSS
       </p>
@@ -76,7 +78,7 @@ layout: default
 
     <div class="resume-item" itemscope itemprop="worksFor" itemtype="http://schema.org/Organization">
       <h3 class="resume-item-title" itemprop="name">Magento, X.commerce, Inc. (an eBay company)</h3>
-      <h4 class="resume-item-details" itemprop="description">Software Engineer &bull; 2011 &mdash; 2013</h4>
+      <h4 class="resume-item-details" itemprop="description">Software Engineer &bull; Mar 2011 &mdash; Feb 2013</h4>
       <p class="resume-item-copy">
         <strong>Technologies:</strong> PHP, MySQL, Redis, MongoDB, SOAP, REST, oAuth
       </p>
@@ -92,7 +94,7 @@ layout: default
 
     <div class="resume-item" itemscope itemprop="worksFor" itemtype="http://schema.org/Organization">
       <h3 class="resume-item-title" itemprop="name">Freelance Contractor</h3>
-      <h4 class="resume-item-details" itemprop="description">2007 &mdash; 2010</h4>
+      <h4 class="resume-item-details" itemprop="description">Jan 2007 &mdash; Oct 2010</h4>
       <p class="resume-item-copy">
         <strong>Technologies:</strong> PHP, MySQL, HTML, CSS, JavaScript, Amazon Web Services
       </p>
