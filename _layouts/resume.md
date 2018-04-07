@@ -78,7 +78,7 @@ layout: default
 
     <div class="resume-item" itemscope itemprop="worksFor" itemtype="http://schema.org/Organization">
       <h3 class="resume-item-title" itemprop="name">Magento, X.commerce, Inc. (an eBay company)</h3>
-      <h4 class="resume-item-details" itemprop="description">Software Engineer &bull; Mar 2011 &mdash; Feb 2013</h4>
+      <h4 class="resume-item-details" itemprop="description">Software Engineer &bull; Apr 2011 &mdash; Feb 2013</h4>
       <p class="resume-item-copy">
         <strong>Technologies:</strong> PHP, MySQL, Redis, MongoDB, SOAP, REST, oAuth
       </p>
