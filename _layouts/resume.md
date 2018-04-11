@@ -57,7 +57,7 @@ layout: default
     </div>
 
     <div class="resume-item" itemscope itemprop="worksFor" itemtype="http://schema.org/Organization">
-      <h3 class="resume-item-title" itemprop="name">Luxury Fashion Trade GmbH (<a href="http://fashionette.de" target="_blank">fashionette.de</a>)
+      <h3 class="resume-item-title" itemprop="name">Fashionette GmbH (<a href="http://fashionette.de" target="_blank">fashionette.de</a>)
       </h3>
       <h4 class="resume-item-details" style="margin-bottom:0.5em" itemprop="description">Senior Software Developer</h4>
       <h4 class="resume-item-details" style="margin-top: 0">Sep 2016 &mdash; Mar 2017 (contractor)</h4>
