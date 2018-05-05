@@ -44,7 +44,7 @@ resume_section_associations:    false
 # uncomment the options you wish to display, and add your own URL
 resume_social_links:
   resume_github_url:            https://github.com/ayastreb
-  resume_twitter_url:           https://twitter.com/mrHabicht
+  resume_twitter_url:           https://twitter.com/AnatoliyYastreb
   resume_linkedin_url:          https://www.linkedin.com/in/yastreb
   resume_pdf_url:               https://ayastreb.me/anatoliy.yastreb-resume.pdf
 
