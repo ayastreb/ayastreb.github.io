@@ -43,8 +43,17 @@ layout: default
     </header>
 
     <div class="resume-item" itemscope itemprop="worksFor" itemtype="http://schema.org/Organization">
+      <h3 class="resume-item-title" itemprop="name">Indeed.com</h3>
+      <h4 class="resume-item-details" style="margin-bottom:0.5em" itemprop="description">Frontend Engineer</h4>
+      <h4 class="resume-item-details" itemprop="description">Jun 2018 &mdash; Present</h4>
+      <p class="resume-item-copy">
+        <strong>Technologies:</strong> HTML, CSS, JavaScript, React
+      </p>      
+    </div>
+
+    <div class="resume-item" itemscope itemprop="worksFor" itemtype="http://schema.org/Organization">
       <h3 class="resume-item-title" itemprop="name">Independent Developer</h3>
-      <h4 class="resume-item-details" itemprop="description">Apr 2017 &mdash; Present</h4>
+      <h4 class="resume-item-details" itemprop="description">Apr 2017 &mdash; May 2018</h4>
       <p class="resume-item-copy">
         <strong>Technologies:</strong> HTML, CSS, JavaScript, React, Redux, Webpack, CouchDB
       </p>
